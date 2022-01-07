@@ -30,10 +30,16 @@ submitButton.addEventListener('click', () => {
     alert('É necessário preencher ao menos uma alternativa');
   }
 
+  console.log('currentQuiz', currentQuiz)
+  console.log('counterAnswersCorrect', counterAnswersCorrect)
+
+
 });
 
 returnQuestionButton.addEventListener('click', () =>{
 
   returnQuestion();
+  console.log('currentQuiz', currentQuiz)
+  console.log('counterAnswersCorrect', counterAnswersCorrect)
 
 })

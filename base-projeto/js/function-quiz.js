@@ -19,7 +19,7 @@ function getSelected(){
 
   let answer = undefined;
 
-  answersEls.forEach((answerEl) => {
+  answersElements.forEach((answerEl) => {
     if(answerEl.checked){
       answer = answerEl.id;
     }
