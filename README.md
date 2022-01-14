@@ -1,6 +1,6 @@
 # Rock'n Roll Quizz 🤘
 
-Test your knowledge about rock n roll with this Quizz.
+Test your knowledge about rock'n roll with this Quizz.
 
 ## 🚀 Technologies
 - HTML
@@ -27,8 +27,8 @@ I did some basic modifications on HTML and CSS as you can compare below:
 
 Basically there are two modifications:
 - The color, that doesn't matter so much.
-- The button to return the questions is important here. With this application you can return the question if you thought some answer wasn't right.
-So, to return the question and verify if the answer was right or wrong, and count this to score was necessary to put a new logic. This is the biggest difference between mine and his project. You can see better below:
+- The button to return the questions, it's important here. With this application you can return the question if you thought some answer wasn't right.
+So, to return the question and verify if the answer was right or wrong, and count it to score, was necessary to put a new logic. This is the biggest difference between mine and his project. You can see better below:
 
 ```javascript
 var counterAnswersCorrect = 0;
